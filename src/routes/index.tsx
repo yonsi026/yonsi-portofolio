@@ -91,7 +91,7 @@ function Index() {
             <Reveal
               as="h1"
               delay={80}
-              className="mt-8 text-[3.25rem] leading-[0.86] font-bold tracking-[-0.03em] uppercase sm:text-[5rem] lg:text-[8.5rem]"
+              className="mt-8 text-[3.25rem] leading-[0.86] font-bold tracking-[-0.03em] uppercase sm:text-[5rem] lg:text-[7rem] xl:text-[8.5rem]"
             >
               I build
               <br />
