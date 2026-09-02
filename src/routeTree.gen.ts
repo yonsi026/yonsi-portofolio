@@ -10,33 +10,60 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as SeblakRouteImport } from './routes/seblak'
+import { Route as SeblakIndexRouteImport } from './routes/seblak.index'
+import { Route as SeblakCheckoutRouteImport } from './routes/seblak.checkout'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SeblakRoute = SeblakRouteImport.update({
+  id: '/seblak',
+  path: '/seblak',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SeblakIndexRoute = SeblakIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => SeblakRoute,
+} as any)
+const SeblakCheckoutRoute = SeblakCheckoutRouteImport.update({
+  id: '/checkout',
+  path: '/checkout',
+  getParentRoute: () => SeblakRoute,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/seblak': typeof SeblakRouteWithChildren
+  '/seblak/checkout': typeof SeblakCheckoutRoute
+  '/seblak/': typeof SeblakIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/seblak/checkout': typeof SeblakCheckoutRoute
+  '/seblak': typeof SeblakIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/seblak': typeof SeblakRouteWithChildren
+  '/seblak/checkout': typeof SeblakCheckoutRoute
+  '/seblak/': typeof SeblakIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths: '/' | '/seblak' | '/seblak/checkout' | '/seblak/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to: '/' | '/seblak/checkout' | '/seblak'
+  id: '__root__' | '/' | '/seblak' | '/seblak/checkout' | '/seblak/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  SeblakRoute: typeof SeblakRouteWithChildren
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +75,46 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/seblak': {
+      id: '/seblak'
+      path: '/seblak'
+      fullPath: '/seblak'
+      preLoaderRoute: typeof SeblakRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/seblak/': {
+      id: '/seblak/'
+      path: '/'
+      fullPath: '/seblak/'
+      preLoaderRoute: typeof SeblakIndexRouteImport
+      parentRoute: typeof SeblakRoute
+    }
+    '/seblak/checkout': {
+      id: '/seblak/checkout'
+      path: '/checkout'
+      fullPath: '/seblak/checkout'
+      preLoaderRoute: typeof SeblakCheckoutRouteImport
+      parentRoute: typeof SeblakRoute
+    }
   }
 }
 
+interface SeblakRouteChildren {
+  SeblakCheckoutRoute: typeof SeblakCheckoutRoute
+  SeblakIndexRoute: typeof SeblakIndexRoute
+}
+
+const SeblakRouteChildren: SeblakRouteChildren = {
+  SeblakCheckoutRoute: SeblakCheckoutRoute,
+  SeblakIndexRoute: SeblakIndexRoute,
+}
+
+const SeblakRouteWithChildren =
+  SeblakRoute._addFileChildren(SeblakRouteChildren)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  SeblakRoute: SeblakRouteWithChildren,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
