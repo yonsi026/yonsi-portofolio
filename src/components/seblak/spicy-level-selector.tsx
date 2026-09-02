@@ -8,7 +8,11 @@ export function SpicyLevelSelector({
   onChange: (level: number) => void;
 }) {
   return (
-    <div role="radiogroup" aria-label="Level pedas" className="grid grid-cols-2 gap-2 sm:grid-cols-3">
+    <div
+      role="radiogroup"
+      aria-label="Level pedas"
+      className="grid grid-cols-2 gap-2 sm:grid-cols-3"
+    >
       {spicyLevels.map((l) => {
         const active = value === l.level;
         return (

@@ -39,8 +39,7 @@ export function SiteNav() {
                 active === item.id ? "text-accent" : "text-foreground"
               }`}
             >
-              <span className="text-muted-foreground">{item.no}</span>{" "}
-              <span>{item.label}</span>
+              <span className="text-muted-foreground">{item.no}</span> <span>{item.label}</span>
             </a>
           ))}
         </nav>

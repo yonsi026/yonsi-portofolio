@@ -72,7 +72,11 @@ export function SeblakHeader() {
       </Container>
 
       {open && (
-        <nav id="seblak-mobile-nav" aria-label="Navigasi mobile" className="border-t border-border lg:hidden">
+        <nav
+          id="seblak-mobile-nav"
+          aria-label="Navigasi mobile"
+          className="border-t border-border lg:hidden"
+        >
           {nav.map((n) => (
             <a
               key={n.href}

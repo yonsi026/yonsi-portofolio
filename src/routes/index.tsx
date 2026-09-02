@@ -104,8 +104,8 @@ function Index() {
               delay={160}
               className="mt-10 max-w-xl text-base leading-relaxed text-muted-foreground lg:text-lg"
             >
-              Engineering experience translated into drawings, structures, construction
-              execution, and digital solutions.
+              Engineering experience translated into drawings, structures, construction execution,
+              and digital solutions.
             </Reveal>
 
             <div className="mt-10 flex flex-wrap gap-3">
@@ -130,9 +130,7 @@ function Index() {
               </div>
               <div>
                 <dt className="label text-muted-foreground">Discipline</dt>
-                <dd className="label mt-2">
-                  Engineering / Drafting / Supervision / Development
-                </dd>
+                <dd className="label mt-2">Engineering / Drafting / Supervision / Development</dd>
               </div>
             </dl>
           </div>
@@ -154,14 +152,14 @@ function Index() {
           <div className="mt-12 grid grid-cols-4 gap-x-5 gap-y-10 md:grid-cols-8 lg:grid-cols-12">
             <div className="col-span-4 space-y-6 text-base leading-relaxed md:col-span-5 lg:col-span-7 lg:col-start-4 lg:text-lg">
               <p>
-                Yonsi is an engineering drafter and civil supervisor with hands-on field
-                experience across civil construction, structural works, technical drawing,
-                quantity surveying, and site supervision.
+                Yonsi is an engineering drafter and civil supervisor with hands-on field experience
+                across civil construction, structural works, technical drawing, quantity surveying,
+                and site supervision.
               </p>
               <p>
-                His work covers dam and irrigation works, drainage, road works, land
-                preparation, cut &amp; fill, piping documentation, and day-to-day engineering
-                coordination between design, contractors, and site execution.
+                His work covers dam and irrigation works, drainage, road works, land preparation,
+                cut &amp; fill, piping documentation, and day-to-day engineering coordination
+                between design, contractors, and site execution.
               </p>
               <p>
                 Alongside this practice he is developing skills in full-stack web development,
@@ -312,8 +310,8 @@ function Index() {
             </Reveal>
             <p className="mt-8 max-w-2xl text-base leading-relaxed text-muted-foreground lg:text-lg">
               Yonsi's practice is not limited to traditional construction documentation. He is
-              developing full-stack web development skills — modern web technologies, frontend
-              and backend work, and engineering-oriented digital tools.
+              developing full-stack web development skills — modern web technologies, frontend and
+              backend work, and engineering-oriented digital tools.
             </p>
 
             <div className="relative mt-16 grid grid-cols-4 gap-x-5 gap-y-10 md:grid-cols-8 lg:grid-cols-12">
@@ -392,9 +390,9 @@ function Index() {
               <span className="text-accent">Improve it.</span>
             </Reveal>
             <p className="col-span-4 self-end text-sm leading-relaxed text-muted-foreground md:col-span-3 lg:col-span-4 lg:col-start-9 lg:text-base">
-              A practical approach to engineering and technology: understand the problem,
-              structure the information, produce precise documentation, execute carefully, and
-              continuously improve the solution.
+              A practical approach to engineering and technology: understand the problem, structure
+              the information, produce precise documentation, execute carefully, and continuously
+              improve the solution.
             </p>
           </div>
         </section>
@@ -404,8 +402,8 @@ function Index() {
           <SectionHead no="06" label="Contact" title="Let's build something precise." />
           <div className="mt-12 grid grid-cols-4 gap-x-5 gap-y-10 md:grid-cols-8 lg:grid-cols-12">
             <p className="col-span-4 text-base leading-relaxed md:col-span-5 lg:col-span-6 lg:col-start-4 lg:text-lg">
-              For engineering drafting, technical drawing, construction support, quantity
-              surveying, or digital development projects, feel free to get in touch.
+              For engineering drafting, technical drawing, construction support, quantity surveying,
+              or digital development projects, feel free to get in touch.
             </p>
             <dl className="col-span-4 space-y-6 md:col-span-3 lg:col-span-3 lg:col-start-10">
               <div className="border-t border-foreground pt-3">

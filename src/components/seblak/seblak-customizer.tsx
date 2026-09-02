@@ -160,7 +160,9 @@ export function SeblakCustomizer() {
               </dl>
 
               <div className="mt-5 flex items-center justify-between border-t border-border pt-5">
-                <span className="text-[13px] font-semibold tracking-[0.14em] uppercase">Jumlah</span>
+                <span className="text-[13px] font-semibold tracking-[0.14em] uppercase">
+                  Jumlah
+                </span>
                 <div className="flex items-center gap-2">
                   <button
                     type="button"

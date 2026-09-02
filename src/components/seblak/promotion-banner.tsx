@@ -20,7 +20,9 @@ export function PromotionBanner() {
           <div className="lg:col-span-5">
             <div className="flex flex-wrap items-center justify-between gap-4 bg-brand p-5 text-brand-foreground">
               <div>
-                <p className="text-[12px] font-semibold tracking-[0.18em] uppercase">Kode Voucher</p>
+                <p className="text-[12px] font-semibold tracking-[0.18em] uppercase">
+                  Kode Voucher
+                </p>
                 <p className="text-[28px] font-extrabold tracking-tight">{promo.code}</p>
               </div>
               <a

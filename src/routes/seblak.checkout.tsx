@@ -157,7 +157,11 @@ function CheckoutPage() {
                     Promo {promo.code}
                     {!promoApplied && ` (min. ${formatIDR(promo.minSpend)})`}
                   </dt>
-                  <dd className={promoApplied ? "font-semibold text-success" : "text-muted-foreground"}>
+                  <dd
+                    className={
+                      promoApplied ? "font-semibold text-success" : "text-muted-foreground"
+                    }
+                  >
                     {promoApplied ? `−${formatIDR(discount)}` : "—"}
                   </dd>
                 </div>

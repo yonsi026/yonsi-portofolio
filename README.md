@@ -41,27 +41,27 @@ Use a strict **Swiss International Style**.
 
 Core design principles:
 
-* Grid-based layout
-* Strong typographic hierarchy
-* Minimal decoration
-* Large negative space
-* Asymmetrical but balanced composition
-* Clear information hierarchy
-* Functional design
-* Strong alignment
-* Geometric structure
-* Editorial-style layouts
-* Large typography
-* Thin rules and dividers
-* Technical visual language
-* Precise spacing
-* Minimal rounded corners
-* Avoid excessive cards
-* Avoid generic SaaS design
-* Avoid excessive gradients
-* Avoid glassmorphism
-* Avoid unnecessary animations
-* Avoid overly colorful interfaces
+- Grid-based layout
+- Strong typographic hierarchy
+- Minimal decoration
+- Large negative space
+- Asymmetrical but balanced composition
+- Clear information hierarchy
+- Functional design
+- Strong alignment
+- Geometric structure
+- Editorial-style layouts
+- Large typography
+- Thin rules and dividers
+- Technical visual language
+- Precise spacing
+- Minimal rounded corners
+- Avoid excessive cards
+- Avoid generic SaaS design
+- Avoid excessive gradients
+- Avoid glassmorphism
+- Avoid unnecessary animations
+- Avoid overly colorful interfaces
 
 The website should look like a combination of:
 
@@ -75,27 +75,27 @@ Use a restrained Swiss-inspired palette.
 
 Primary:
 
-* Black
-* White
-* Off-white
+- Black
+- White
+- Off-white
 
 Secondary:
 
-* Charcoal
-* Neutral gray
+- Charcoal
+- Neutral gray
 
 Accent:
 
-* Engineering Red
+- Engineering Red
 
 Use red sparingly for:
 
-* active navigation
-* section numbering
-* important keywords
-* CTA
-* small graphic elements
-* hover states
+- active navigation
+- section numbering
+- important keywords
+- CTA
+- small graphic elements
+- hover states
 
 Do not make the website predominantly red.
 
@@ -110,11 +110,11 @@ Use a modern Swiss-style sans-serif typeface.
 
 Preferred fonts:
 
-* Helvetica Neue
-* Inter
-* Neue Haas Grotesk
-* IBM Plex Sans
-* Swiss-style grotesk alternatives
+- Helvetica Neue
+- Inter
+- Neue Haas Grotesk
+- IBM Plex Sans
+- Swiss-style grotesk alternatives
 
 Use typography aggressively.
 
@@ -134,16 +134,16 @@ Display → H1 → H2 → H3 → Body → Caption → Metadata.
 
 Use uppercase typography for:
 
-* navigation
-* section labels
-* project categories
-* metadata
+- navigation
+- section labels
+- project categories
+- metadata
 
 Use sentence case for:
 
-* descriptions
-* biography
-* project explanations.
+- descriptions
+- biography
+- project explanations.
 
 ---
 
@@ -162,10 +162,10 @@ Mobile:
 
 Maintain consistent:
 
-* margins
-* gutters
-* vertical rhythm
-* alignment
+- margins
+- gutters
+- vertical rhythm
+- alignment
 
 Use visible grid lines subtly in selected sections to reinforce the Swiss editorial aesthetic.
 
@@ -230,13 +230,13 @@ Right side:
 
 Create a technical visual composition inspired by:
 
-* structural drawings
-* AutoCAD linework
-* architectural grids
-* piping diagrams
-* engineering schematics
-* construction details
-* geometric forms
+- structural drawings
+- AutoCAD linework
+- architectural grids
+- piping diagrams
+- engineering schematics
+- construction details
+- geometric forms
 
 Do not use a generic stock-photo hero.
 
@@ -271,17 +271,17 @@ Write a professional biography based strictly on the supplied CV.
 
 Describe Yonsi as an experienced civil supervisor and engineering/drafter professional with experience in:
 
-* civil construction
-* structural works
-* technical drawing
-* quantity surveying
-* site supervision
-* dam and irrigation works
-* drainage
-* road works
-* land preparation
-* piping
-* engineering coordination
+- civil construction
+- structural works
+- technical drawing
+- quantity surveying
+- site supervision
+- dam and irrigation works
+- drainage
+- road works
+- land preparation
+- piping
+- engineering coordination
 
 Also highlight his transition toward combining engineering knowledge with technology and full-stack development.
 
@@ -291,11 +291,11 @@ Do not exaggerate credentials.
 
 Do not claim:
 
-* professional engineer license
-* university engineering degree
-* architect license
-* certified structural engineer
-* expert-level mastery
+- professional engineer license
+- university engineering degree
+- architect license
+- certified structural engineer
+- expert-level mastery
 
 unless explicitly supported by the CV.
 
@@ -359,36 +359,36 @@ Group skills into categories.
 
 CAD / BIM / STRUCTURAL:
 
-* AutoCAD
-* AutoCAD Plant 3D
-* Revit Structure
-* Tekla Structures
-* ETABS
+- AutoCAD
+- AutoCAD Plant 3D
+- Revit Structure
+- Tekla Structures
+- ETABS
 
 PROJECT / OFFICE:
 
-* Microsoft Office
-* Microsoft Project
+- Microsoft Office
+- Microsoft Project
 
 ENGINEERING:
 
-* Technical Drawing
-* Structural Detailing
-* Piping Drawing
-* P&ID
-* Isometric Drawing
-* Bill of Materials
-* Bill of Quantities
-* RAB / Cost Estimation
-* Material Take-Off
-* Site Supervision
-* Cut & Fill
-* Drainage
-* Irrigation
+- Technical Drawing
+- Structural Detailing
+- Piping Drawing
+- P&ID
+- Isometric Drawing
+- Bill of Materials
+- Bill of Quantities
+- RAB / Cost Estimation
+- Material Take-Off
+- Site Supervision
+- Cut & Fill
+- Drainage
+- Irrigation
 
 DIGITAL:
 
-* Full-Stack Development
+- Full-Stack Development
 
 Do not visually imply expert certification.
 
@@ -421,14 +421,14 @@ May 2025 — January 2026
 
 Responsibilities included:
 
-* Piping Plan
-* Isometric Drawings
-* P&ID
-* AutoCAD Plant 3D
-* ASME / API / ASTM compliance
-* Engineering coordination
-* Clash detection
-* Bill of Materials
+- Piping Plan
+- Isometric Drawings
+- P&ID
+- AutoCAD Plant 3D
+- ASME / API / ASTM compliance
+- Engineering coordination
+- Clash detection
+- Bill of Materials
 
 ### PT. GLOBAL ENGEGI POWER
 
@@ -472,16 +472,16 @@ Engineering Drafter / Quantity Surveyor / Supervisor
 
 Experience covering:
 
-* road maintenance
-* warehouse foundation structures
-* warehouse access roads
-* drainage
-* land preparation
-* cut & fill
-* industrial wastewater drainage
-* water treatment channels
-* structural drawings
-* construction supervision
+- road maintenance
+- warehouse foundation structures
+- warehouse access roads
+- drainage
+- land preparation
+- cut & fill
+- industrial wastewater drainage
+- water treatment channels
+- structural drawings
+- construction supervision
 
 ### PT. WIJAYA KARYA (Persero)
 
@@ -490,9 +490,9 @@ Drafter Engineering
 
 Experience involving:
 
-* aviation fuel piping drawings
-* technical drawings
-* road maintenance project in Batugade, Maliana, Timor-Leste
+- aviation fuel piping drawings
+- technical drawings
+- road maintenance project in Batugade, Maliana, Timor-Leste
 
 ### PT. SEANTERO PANGESTU
 
@@ -600,15 +600,15 @@ The project section should feel like an engineering drawing archive.
 
 Use:
 
-* black & white drawings
-* blueprint-inspired graphics
-* CAD linework
-* technical annotations
-* dimensions
-* grid overlays
-* engineering symbols
-* structural details
-* piping diagrams
+- black & white drawings
+- blueprint-inspired graphics
+- CAD linework
+- technical annotations
+- dimensions
+- grid overlays
+- engineering symbols
+- structural details
+- piping diagrams
 
 If real project images are unavailable, create abstract technical placeholders.
 
@@ -629,11 +629,11 @@ Explain that Yonsi's experience is not limited to traditional construction docum
 
 He is developing skills in:
 
-* Full-stack web development
-* modern web technologies
-* frontend development
-* backend development
-* engineering-oriented digital tools
+- Full-stack web development
+- modern web technologies
+- frontend development
+- backend development
+- engineering-oriented digital tools
 
 Visual concept:
 
@@ -749,23 +749,23 @@ Keep animations subtle and functional.
 
 Use:
 
-* smooth scrolling
-* subtle fade-in
-* typography reveal
-* line expansion
-* hover underline
-* image reveal
-* grid movement
-* subtle cursor interaction
+- smooth scrolling
+- subtle fade-in
+- typography reveal
+- line expansion
+- hover underline
+- image reveal
+- grid movement
+- subtle cursor interaction
 
 Avoid:
 
-* excessive parallax
-* flashy 3D
-* excessive particle effects
-* loading animations that slow the website
-* excessive hover effects
-* unnecessary gradients
+- excessive parallax
+- flashy 3D
+- excessive particle effects
+- loading animations that slow the website
+- excessive hover effects
+- unnecessary gradients
 
 Animation should communicate:
 **precision, movement, and technical sophistication.**
@@ -795,12 +795,12 @@ Mobile priorities:
 
 Ensure:
 
-* typography remains readable
-* navigation works perfectly
-* buttons are touch-friendly
-* no horizontal overflow
-* technical drawings remain legible
-* fast loading
+- typography remains readable
+- navigation works perfectly
+- buttons are touch-friendly
+- no horizontal overflow
+- technical drawings remain legible
+- fast loading
 
 ---
 
@@ -810,28 +810,28 @@ Build the website using modern production-quality frontend architecture.
 
 Preferred stack:
 
-* Next.js
-* TypeScript
-* Tailwind CSS
-* React
-* semantic HTML
-* responsive CSS
-* accessible components
+- Next.js
+- TypeScript
+- Tailwind CSS
+- React
+- semantic HTML
+- responsive CSS
+- accessible components
 
 Code quality requirements:
 
-* reusable components
-* clean folder structure
-* semantic HTML
-* accessible navigation
-* SEO metadata
-* Open Graph metadata
-* optimized images
-* responsive layout
-* good Lighthouse performance
-* keyboard navigation
-* proper contrast
-* mobile-first responsiveness
+- reusable components
+- clean folder structure
+- semantic HTML
+- accessible navigation
+- SEO metadata
+- Open Graph metadata
+- optimized images
+- responsive layout
+- good Lighthouse performance
+- keyboard navigation
+- proper contrast
+- mobile-first responsiveness
 
 Do not create unnecessary dependencies.
 
@@ -868,13 +868,13 @@ full-stack developer Indonesia
 
 The final website must NOT look like:
 
-* generic portfolio templates
-* generic SaaS landing pages
-* typical AI-generated websites
-* excessive rounded cards
-* colorful startup websites
-* gaming websites
-* overly futuristic websites
+- generic portfolio templates
+- generic SaaS landing pages
+- typical AI-generated websites
+- excessive rounded cards
+- colorful startup websites
+- gaming websites
+- overly futuristic websites
 
 Instead, it must feel like:
 
@@ -896,15 +896,15 @@ Use the supplied CV as the primary source for professional experience.
 
 Do not invent:
 
-* degrees
-* certifications
-* companies
-* project values
-* project clients
-* job titles
-* years of experience
-* professional licenses
-* engineering registrations
+- degrees
+- certifications
+- companies
+- project values
+- project clients
+- job titles
+- years of experience
+- professional licenses
+- engineering registrations
 
 Where information is not available, use neutral wording rather than inventing details.
 
@@ -918,10 +918,10 @@ Think like a combination of:
 
 **Swiss Graphic Designer
 
-* Engineering Consultant
-* Architectural Portfolio Designer
-* Senior UI/UX Designer
-* Full-Stack Developer**
+- Engineering Consultant
+- Architectural Portfolio Designer
+- Senior UI/UX Designer
+- Full-Stack Developer**
 
 The result should be a highly professional personal portfolio that visually connects:
 
