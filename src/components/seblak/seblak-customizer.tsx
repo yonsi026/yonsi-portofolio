@@ -20,7 +20,7 @@ function Step({ no, title, children }: { no: string; title: string; children: Re
 
 export function SeblakCustomizer() {
   const { addItem } = useCart();
-  const [baseId, setBaseId] = useState(bases[0].id);
+  const [baseId, setBaseId] = useState(bases[0]!.id);
   const [level, setLevel] = useState(2);
   const [picked, setPicked] = useState<string[]>(["bakso"]);
   const [pickedExtras, setPickedExtras] = useState<string[]>([]);
@@ -132,7 +132,7 @@ export function SeblakCustomizer() {
                 <div className="flex justify-between gap-4">
                   <dt className="text-muted-foreground">Level pedas</dt>
                   <dd className="font-semibold">
-                    {level} · {spicyLevels[level].label}
+                    {level} · {spicyLevels[level]?.label}
                   </dd>
                 </div>
                 <div className="flex justify-between gap-4">
